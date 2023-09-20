@@ -32,7 +32,7 @@ const ProjectCard = ({
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 color-secondary text-[14px]">{description}</p>
           <a
-            className="mt-2 text-blue-300 text-md"
+            className="mt-2 text-blue-300 text-sm"
             href={source_code_link}
             target="_blank"
             rel="noopener noreferrer"
