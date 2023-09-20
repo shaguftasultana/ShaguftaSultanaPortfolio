@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -38,18 +38,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As an intern software developer in a software company, I am currently
-        learning and gaining hands-on experience in the MERN stack (MongoDB,
-        Express.js, React, and Node.js) and Next.js. My primary goal is to
-        contribute to the company's projects while expanding my knowledge and
-        skills in software development. Additionally, I have been working to
-        improve my coding skills by practicing regularly and taking online
-        courses to deepen my understanding of the MERN stack. I am also
-        committed to learning software development best practices and
-        incorporating them into my work. Overall, I am excited to continue
-        learning and contributing to the software company as software developer,
-        while also expanding my skills and knowledge to become a valuable asset
-        to any future employer.
+        I am a highly skilled MERN stack developer with one year of experience,
+        specializing in React and Next.js. My proficiency extends to HTML5,
+        CSS3, ES6 JavaScript, and a wide range of cutting-edge technologies and
+        libraries, including Material-UI (MUI), Axios, Redux, Redux Toolkit,
+        i18next, MongoDB, Mapbox GL, TypeScript, GraphQL, Apollo Client, and
+        more. I've successfully tackled projects involving REST APIs, state
+        management, and responsive design using Tailwind CSS and React Three
+        Fiber for 3D graphics. My deployment experience includes Netlify and
+        Vercel, and I've worked with WordPress for content management.
+        Proficient in collaboration and project management tools like Jira,
+        Slack, and Trello, I excel at turning design concepts into functional
+        applications using Figma and delivering high-quality solutions. I'm
+        passionate about continuous learning and am eager to explore and master
+        new technologies to further enhance my skill set and contribute to
+        innovative projects in the world of web development.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

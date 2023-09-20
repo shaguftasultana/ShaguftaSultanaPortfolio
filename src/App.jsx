@@ -5,10 +5,10 @@ import {
   Experience,
   Hero,
   Navbar,
-  Tech,
   Works,
   StarsCanvas,
 } from "../src/components";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -17,10 +17,11 @@ const App = () => {
 
       <About />
       <Experience />
-      <Tech />
+
       <Works />
       <Contact />
       <StarsCanvas />
+      <Footer />
     </BrowserRouter>
   );
 };
