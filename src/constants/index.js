@@ -353,6 +353,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://redux-i18next.vercel.app/",
   },
   {
     name: "BUILDING BLOCKS HISTORY",

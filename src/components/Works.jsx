@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { textVariant, fadeIn } from "../utils/motion";
+
 const ProjectCard = ({
   index,
   name,
@@ -15,7 +16,11 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      initial="hidden"
+      whileInView="show"
+    >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -32,7 +37,7 @@ const ProjectCard = ({
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 color-secondary text-[14px]">{description}</p>
           <a
-            className="mt-2 text-blue-300 text-sm"
+            className="mt-2 text-blue-300 text-md"
             href={source_code_link}
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +60,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} initial="hidden" whileInView="show">
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
@@ -63,6 +68,8 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          initial="hidden"
+          whileInView="show"
         >
           "I have built a variety of software projects that demonstrate my
           skills and experience in the field. Each project showcases my ability

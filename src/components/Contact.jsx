@@ -20,8 +20,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_velmplp",
-        "template_pzhz5en",
+        "service_p13wz4b",
+        "template_rvq3z77",
         {
           from_name: form.name,
           to_name: "shagufta",
@@ -29,7 +29,7 @@ const Contact = () => {
           to_email: "shaguftaahm5560@gmail.com",
           message: form.message,
         },
-        "z5kFlBp3pBLFiGBYF"
+        "ARyUFJ9i3LI-ddlyo"
       )
       .then(() => {
         setLoading(false);
