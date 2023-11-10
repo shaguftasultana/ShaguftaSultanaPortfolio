@@ -97,6 +97,16 @@ const technologies = [
 
 const experiences = [
   {
+    title: "REMOTE PART-TIME JOB (REACT.JS DEVELOPER)",
+    company_name: "TOOLKIT.LAW",
+
+    date: "NOV, 2023 - PRESENT",
+    points: [
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Learned and experienced part time job in remote settings in frontend development using technology React.js.",
+    ],
+  },
+  {
     title: "REMOTE FULL-TIME JOB (MERN STACK DEVELOPER)",
     company_name: "REFUGEE CODERS",
 
