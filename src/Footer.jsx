@@ -66,7 +66,7 @@ const Footer = () => {
           <a href="#" className="text-white">
             
             <a
-              href="https://www.fiverr.com/mntashq?up_rollout=true"
+              href="https://www.fiverr.com/shaaguftaa?up_rollout=true"
               target="_blank"
               aria-label="Fiverr"
               className="text-white hover:text-gray-400 "
