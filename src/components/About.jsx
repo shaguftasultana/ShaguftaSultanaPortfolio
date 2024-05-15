@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a highly skilled MERN stack developer with one year of experience,
+        I am a highly skilled MERN stack developer with experience of
         specializing in React and Next.js. My proficiency extends to HTML5,
         CSS3, ES6 JavaScript, and a wide range of cutting-edge technologies and
         libraries, including Material-UI (MUI), Axios, Redux, Redux Toolkit,
